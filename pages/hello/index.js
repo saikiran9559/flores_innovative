@@ -1,8 +1,12 @@
+
+import {
+    Container,
+} from './style'
 const Hello = () => {
     return (
-        <div>
+        <Container>
             hello wrl
-        </div>
+        </Container>
     );
 }
 

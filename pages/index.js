@@ -1,8 +1,15 @@
+
+import Navbar from '../components/navbar/navbar';
+import Slider from '../components/slider/slider';
+import {
+    Container,
+} from '../styles/index.style'
 const Home = () => {
     return (
-        <div>
-            this is home page
-        </div>
+        <Container >
+            <Navbar />
+            <Slider />
+        </Container>
     );
 }
 
